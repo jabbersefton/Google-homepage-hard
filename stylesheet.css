@@ -64,21 +64,43 @@ body, div {
     
 
     .search_holder{
-        padding-top: 23px;
+        padding-top: 15px;
         float: left;        
+    }
+    .header_logo_holder{
+		float:left;
+		width:127px;
+    
     }
     .header_logo {
         width:auto;
-        height:35px;
+        height:32px;
         float:left;
-        padding: 23px 10px;
+        padding: 15px 15px 10px 10px;
     }
 
     .search_box{
-        width:538px;
+        width:590px;
         font-size: 16pt;
         border: 1px solid #dcdcdc;
+        height:30px;
     }
+
+    .search_button{
+        border: 1px solid #357ebd;
+        background-color:#4285F4;
+        background-image: url("images/mag_glass.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius:2px;
+        height:30px;
+        width:60px;
+    }
+    .search_button_holder{
+		float: left;
+		padding-top: 15px;
+	}
     
     .footer_right ul {
         margin: 0;
